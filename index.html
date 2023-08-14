@@ -4,36 +4,139 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kuromi</title>
+  <title>Agony</title>
   <link rel="stylesheet" href="style.css">
-  <link href="Img/KuroIco.png" rel="icon" type="image/x-icon"/>
+  <link href="Img/AgonyIco.png" rel="icon" type="image/x-icon" />
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="https://kuromi.sanrio.co.jp/en/category/news/">News</a></li>
-        <li><a href="https://image.baidu.com/search/index?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&dyTabStr=MCw2LDMsNCwxLDUsLDIsNyw4LDk%3D&word=kuromi">Images</a></li>
-        <li><a href="https://www.youtube.com/watch?v=nUPkFlFVnn0">Video</a></li>
-        <li><a href="https://www.kuromifinance.com">Finance</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <video src="Img/Moradito (2).mp4" autoplay="true" muted="true" loop="true" poster="Img/blackkkk.jpg"></video>
-  <section id="sect1" class="sect">
-    <div class="search-container">
-      <h1>Kuromi</h1>
-      <form action="https://www.google.com/search" method="GET" target="_blank">
-        <input type="text" name="q" id="searchInput" placeholder="Search in Kuromi">
-        <button type="submit" id="searchButton">Search</button>
+  <div class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        <div class="nav-g">
+          <img src="Img/AgonyIco.png" alt="">
+          <p>Agony</p>
+        </div>
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+
+    <div class="nav-links">
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Screenshots</a>
+      <a href="">Contact</a>
+      <a href="#" class="nhover"><button class="btn-ini">Login</button></a>
+    </div>
+  </div>
+  <section class="hero">
+    <div class="hero_img">
+    </div>
+    <div class="hero_txt">
+      <h1>About</h1>
+      <p>Agony is an FPS game survival horror game where players begin their adventure as a tormented soul without any
+        memories. Your ability to controlling people and possessing demons gives you the strength to survive. You should
+        have in mind that Agony is quite an old school game, with the semi-open world, many paths, and endings. There
+        are bad video games, and there is the world of Agony. The game is available on Steam, and the story has various
+        endings, depending on the choices and progress the player makes.</p>
+    </div>
+
+  </section>
+  <section class="galerycontent">
+    <h2>galery</h2>
+    <div class="galery">
+
+      <img src="assets/01.jpg" alt="">
+      <img src="assets/1.jpg" alt="">
+      <img src="assets/2.jpg" alt="">
+
+      <img src="assets/3.jpg" alt="">
+      <img src="assets/agony5.jpg" alt="">
+      <img src="assets/agony6.jpg" alt="">
+
+    </div>
+  </section>
+
+  <section class="cards">
+
+    <h1>Cards</h1>
+
+    <div class="cards-content">
+      <div class=" card">
+        <div class="card-img">
+          <img class="img-size" src="Img/about2.jpg" alt="">
+        </div>
+        <div>
+          <h3>Title</h3>
+          <p>Tuki</p>
+          
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img class="img-size" src="Img/about3.jpg" alt="">
+        </div>
+        <div>
+          <h3>Title</h3>
+          <p>Tuki</p>
+        
+        </div>
+
+      </div>
+      <div class="card">
+        <div class="card-img">
+          <img class="img-size" src="Img/about4.jpg" alt="">
+        </div>
+        <div>
+          <h3>Title</h3>
+          <p>Tuki</p>
+         
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img class="img-size" src="Img/about1.jpg" alt="">
+        </div>
+        <div>
+          <h3>Title</h3>
+          <p>Tuki</p>
+          
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <section class="contact">
+    <div class="data-contact">
+      <h4>Form</h4>
+      <form action="">
+        <label for="">Msj</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <label for="">Name</label>
+        <input type="text" name="nombre" id="" maxlength="10" required>
+        <button type="submit">Send form</button>
       </form>
+    </div>
+   
+  </section> 
+  <footer>
+    <p>Autor: Aixa</p>
+    <span class="material-symbols-outlined">
+      alternate_email
+    </span>
+  </footer>
 
-      
-      <footer>
-        <p>2023 My web browser. All rights reserved.</p>
-      </footer>
 
 </body>
 
