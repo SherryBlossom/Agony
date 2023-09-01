@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(209, 148, 113, 0.872) !important;
+}
+
+
+.row.galeria {
+    text-align:  -webkit-center !important;
+
+}
+
+.row.hero {
+   
+    color: #241007;
+}
+
+
+
+@media only screen and (max-width: 720px) {
+    .galeria img {
+        width: 100% !important;
+    }
+}
